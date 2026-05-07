@@ -16,7 +16,218 @@ const Skills = () => {
         </div>
 
       </div>
-      <div className="bg-[#1E1E1E] h-full">Skills</div>
+      <div className="bg-[#1E1E1E] flex-1 text-white p-5 pl-9 overflow-y-auto no-scrollbar">
+        <p className="pl-3">1</p>
+        <p className="pl-3">2</p>
+        <div>
+          <span className="pl-3">3</span>
+          <span className="text-[#569CD6] pl-8">type</span>
+          <span className="text-[#4EC9B0] pl-2">SkillCategory</span>
+          <span className="text-[#D4D4D4] pl-2">=</span>
+          <span className="text-[#E0BD00] pl-2">{"{"}</span>
+        </div>
+        <div>
+          <span className="pl-3">4</span>
+          <span className="text-[#9CDCFE] pl-16">title</span>
+          <span className="text-[#D4D4D4] ">:</span>
+          <span className="text-[#4EC9B0] pl-2">string</span>
+          <span className="text-[#D4D4D4] ">;</span>
+        </div>
+        <div>
+          <span className="pl-3">5</span>
+          <span className="text-[#9CDCFE] pl-16">skills</span>
+          <span className="text-[#D4D4D4] ">:</span>
+          <span className="text-[#4EC9B0] pl-2">string</span>
+          <span className="text-[#C586C0]">[ ]</span>
+          <span className="text-[#D4D4D4] ">;</span>
+        </div>
+        <div>
+          <span className="pl-3">6</span>
+          <span className="text-[#E0BD00] pl-8">{"}"}</span>
+          <span className="text-[#D4D4D4] ">;</span>
+        </div>
+        <div>
+          <span className="pl-3">7</span>
+          <span className="text-[#569CD6] pl-8">const</span>
+          <span className="text-[#9CDCFE] pl-2">skills</span>
+          <span className="text-[#D4D4D4] ">:</span>
+          <span className="text-[#4EC9B0] pl-2">SkillCategory</span>
+          <span className="text-[#E0BD00]">{"[ ]"}</span>
+          <span className="text-[#D4D4D4] pl-2">=</span>
+          <span className="text-[#E0BD00] pl-2">{"["}</span>
+        </div>
+        <div>
+          <span className="pl-3">8</span>
+          <span className="text-[#C586C0] pl-16">{"{"}</span>
+        </div>
+        <div>
+          <span className="pl-3">9</span>
+          <span className="text-[#9CDCFE] pl-24">title</span>
+          <span className="text-[#D4D4D4] ">:</span>
+          <span className="text-[#CE9178] pl-2">"Languages"</span>
+          <span className="text-[#D4D4D4] ">,</span>
+        </div>
+        <div>
+          <span className="pl-2">10</span>
+          <span className="text-[#9CDCFE] pl-23">skills</span>
+          <span className="text-[#D4D4D4] ">:</span>
+          <span className="text-[#569CD6] pl-2">{"["}</span>
+          <span className="text-[#CE9178] pl-2">"C++"</span>
+          <span className="text-[#D4D4D4] ">,</span>
+          <span className="text-[#CE9178] pl-2">"Python"</span>
+          <span className="text-[#D4D4D4] ">,</span>
+          <span className="text-[#CE9178] pl-2">"JavaScript"</span>
+          <span className="text-[#D4D4D4] ">,</span>
+          <span className="text-[#CE9178] pl-2">"Java"</span>
+          <span className="text-[#569CD6]">{"]"}</span>
+        </div>
+        <div>
+          <span className="pl-2">11</span>
+          <span className="text-[#C586C0] pl-15">{"}"}</span>
+        </div>
+        <div>
+          <span className="pl-2">12</span>
+          <span className="text-[#C586C0] pl-15">{"{"}</span>
+        </div>
+        <div>
+          <span className="pl-2">13</span>
+          <span className="text-[#9CDCFE] pl-23">title</span>
+          <span className="text-[#D4D4D4] ">:</span>
+          <span className="text-[#CE9178] pl-2">"Frontend"</span>
+          <span className="text-[#D4D4D4] ">,</span>
+        </div>
+        <div>
+          <span className="pl-2">14</span>
+          <span className="text-[#9CDCFE] pl-23">skills</span>
+          <span className="text-[#D4D4D4] ">:</span>
+          <span className="text-[#569CD6] pl-2">{"["}</span>
+          <span className="text-[#CE9178] pl-2">"React.js"</span>
+          <span className="text-[#D4D4D4] ">,</span>
+          <span className="text-[#CE9178] pl-2">"HTML"</span>
+          <span className="text-[#D4D4D4] ">,</span>
+          <span className="text-[#CE9178] pl-2">"CSS3"</span>
+          <span className="text-[#D4D4D4] ">,</span>
+          <span className="text-[#CE9178] pl-2">"Tailwind CSS"</span>
+          <span className="text-[#569CD6]">{"]"}</span>
+        </div>
+        <div>
+          <span className="pl-2">15</span>
+          <span className="text-[#C586C0] pl-15">{"}"}</span>
+        </div>
+        <div>
+          <span className="pl-2">16</span>
+          <span className="text-[#C586C0] pl-15">{"{"}</span>
+        </div>
+        <div>
+          <span className="pl-2">17</span>
+          <span className="text-[#9CDCFE] pl-23">title</span>
+          <span className="text-[#D4D4D4] ">:</span>
+          <span className="text-[#CE9178] pl-2">"Core Concepts"</span>
+          <span className="text-[#D4D4D4] ">,</span>
+        </div>
+        <div>
+          <span className="pl-2">18</span>
+          <span className="text-[#9CDCFE] pl-23">skills</span>
+          <span className="text-[#D4D4D4] ">:</span>
+          <span className="text-[#569CD6] pl-2">{"["}</span>
+        </div>
+        <div>
+          <span className="pl-2">19</span>
+          <span className="text-[#CE9178] pl-31">"Data Structures & Algorithms"</span>
+          <span className="text-[#D4D4D4] ">,</span>
+        </div>
+        <div>
+          <span className="pl-2">20</span>
+          <span className="text-[#CE9178] pl-31">"Object-Oriented Programming"</span>
+          <span className="text-[#D4D4D4] ">,</span>
+        </div>
+        <div>
+          <span className="pl-2">21</span>
+          <span className="text-[#CE9178] pl-31">"Responsive Design"</span>
+          <span className="text-[#D4D4D4] ">,</span>
+        </div>
+        <div>
+          <span className="pl-2">22</span>
+          <span className="text-[#CE9178] pl-31">"UI/UX Principles"</span>
+          <span className="text-[#D4D4D4] ">,</span>
+        </div>
+        <div>
+          <span className="pl-2">23</span>
+          <span className="text-[#569CD6] pl-23">{"]"}</span>
+        </div>
+        <div>
+          <span className="pl-2">24</span>
+          <span className="text-[#C586C0] pl-15">{"}"}</span>
+        </div>
+        <div>
+          <span className="pl-2">25</span>
+          <span className="text-[#C586C0] pl-15">{"{"}</span>
+        </div>
+        <div>
+          <span className="pl-2">26</span>
+          <span className="text-[#9CDCFE] pl-23">title</span>
+          <span className="text-[#D4D4D4] ">:</span>
+          <span className="text-[#CE9178] pl-2">"Tools & Platforms"</span>
+          <span className="text-[#D4D4D4] ">,</span>
+        </div>
+        <div>
+          <span className="pl-2">27</span>
+          <span className="text-[#9CDCFE] pl-23">skills</span>
+          <span className="text-[#D4D4D4] ">:</span>
+          <span className="text-[#569CD6] pl-2">{"["}</span>
+          <span className="text-[#CE9178] pl-2">"Git & GitHub"</span>
+          <span className="text-[#D4D4D4] ">,</span>
+          <span className="text-[#CE9178] pl-2">"VS Code"</span>
+          <span className="text-[#D4D4D4] ">,</span>
+          <span className="text-[#CE9178] pl-2">"Vercel"</span>
+          <span className="text-[#569CD6]">{"]"}</span>
+        </div>
+        <div>
+          <span className="pl-2">28</span>
+          <span className="text-[#C586C0] pl-15">{"}"}</span>
+        </div>
+        <div>
+          <span className="pl-2">29</span>
+          <span className="text-[#C586C0] pl-15">{"{"}</span>
+        </div>
+        <div>
+          <span className="pl-2">30</span>
+          <span className="text-[#9CDCFE] pl-23">title</span>
+          <span className="text-[#D4D4D4] ">:</span>
+          <span className="text-[#CE9178] pl-2">"Currently Exploring"</span>
+          <span className="text-[#D4D4D4] ">,</span>
+        </div>
+        <div>
+          <span className="pl-2">31</span>
+          <span className="text-[#9CDCFE] pl-23">skills</span>
+          <span className="text-[#D4D4D4] ">:</span>
+          <span className="text-[#569CD6] pl-2">{"["}</span>
+          <span className="text-[#CE9178] pl-2">"Express.js"</span>
+          <span className="text-[#D4D4D4] ">,</span>
+          <span className="text-[#CE9178] pl-2">"MongoDB"</span>
+          <span className="text-[#D4D4D4] ">,</span>
+          <span className="text-[#CE9178] pl-2">"Full Stack Development"</span>
+          <span className="text-[#D4D4D4] ">,</span>
+          <span className="text-[#CE9178] pl-2">"Machine Learning"</span>
+          <span className="text-[#569CD6]">{"]"}</span>
+        </div>
+        <div>
+          <span className="pl-2">32</span>
+          <span className="text-[#C586C0] pl-15">{"}"}</span>
+        </div>
+        <div>
+          <span className="pl-2">33</span>
+          <span className="text-[#E0BD00] pl-8">{"]"}</span>
+          <span className="text-[#D4D4D4] ">;</span>
+        </div>
+        <p className="pl-2">34</p>
+        <div>
+          <span className="pl-2">35</span>
+          <span className="text-[#C586C0] pl-7">export default</span>
+          <span className="text-[#9CDCFE] pl-2">Skills</span>
+        </div>
+
+      </div>
     </div>
   )
 }
