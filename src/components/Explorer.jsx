@@ -1,13 +1,16 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
-function Explorer(){
+function Explorer({explorerActive}){
     const [isVisible, setVisible] = useState(true);
 
     function handleActive(){
         setVisible(!isVisible);
     }
+
     return(
+        explorerActive
+        ?
         <div className="bg-[#252526] h-full w-60 text-[#ADADAD]">
             <h1 className="p-2 font-bold"> Explorer </h1>
             <div className="flex m-2">
@@ -38,6 +41,7 @@ function Explorer(){
             :null
             }
         </div>
+        :null
     )
 }
 

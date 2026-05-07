@@ -9,54 +9,58 @@ import About from "./components/About.jsx"
 import { useState } from "react"
 
 
-const router = createBrowserRouter(
-  createRoutesFromElements(
-    <Route >
-      <Route path="/" element={
-        <>
-          <Explorer />
-          <Home />
-        </>
-      } />
-      <Route path="/skills" element={
-        <>
-          <Explorer />
-          <Skills />
-        </>
-      } />
-      <Route path="/projects" element={
-        <>
-          <Explorer />
-          <Projects />
-        </>
-      } />
-      <Route path="/exp" element={
-        <>
-          <Explorer />
-          <Experience />
-        </>
-      } />
-      <Route path="/about" element={
-        <>
-          <Explorer />
-          <About />
-        </>
-      } />
-    </Route>
-
-  )
-)
-
 
 
 function App() {
 
   const [menuActive, setMenuActive] = useState(true)
+  const [explorerActive, setExplorerActive] = useState(true)
 
   function handleMenu() {
     setMenuActive(!menuActive)
   }
 
+  function handleExplorer() {
+    setExplorerActive(!explorerActive)
+  }
+
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      <Route >
+        <Route path="/" element={
+          <>
+            <Explorer explorerActive={explorerActive} />
+            <Home />
+          </>
+        } />
+        <Route path="/skills" element={
+          <>
+            <Explorer explorerActive={explorerActive} />
+            <Skills />
+          </>
+        } />
+        <Route path="/projects" element={
+          <>
+            <Explorer explorerActive={explorerActive} />
+            <Projects />
+          </>
+        } />
+        <Route path="/exp" element={
+          <>
+            <Explorer explorerActive={explorerActive} />
+            <Experience />
+          </>
+        } />
+        <Route path="/about" element={
+          <>
+            <Explorer explorerActive={explorerActive} />
+            <About />
+          </>
+        } />
+      </Route>
+
+    )
+  )
 
   return (
     <div className="h-screen w-screen flex flex-col overflow-hidden">
@@ -65,7 +69,7 @@ function App() {
         <h1 className="mt-0.5 text-[#ADADAD] font-bold">Portfolio - Devam Pandey</h1>
       </div>
       <div className="h-full flex overflow-hidden">
-        <SideBar menuActive={menuActive} />
+        <SideBar menuActive={menuActive} handleExplorer={handleExplorer}/>
         <div className=" flex w-full h-full overflow-hidden">
           <RouterProvider router={router} />
         </div>
