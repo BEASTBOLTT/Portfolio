@@ -28,8 +28,9 @@ const Projects = () => {
           <span className="pl-3">3</span>
           <span className="pl-24">"name"</span>
           <span className="text-[#D4D4D4] ">:</span>
-          <span className="text-[#CE9178] pl-2 flex-1">"FinBook – Finance Tracker"</span>
-          <span className="text-[#D4D4D4] ">,</span>
+          <span className="text-[#CE9178] pl-2 flex-1">"FinBook – Finance Tracker"
+            <span className="text-[#D4D4D4] ">,</span>
+          </span>
         </div>
         <div>
           <span className="pl-3">4</span>
@@ -45,22 +46,24 @@ const Projects = () => {
           <span className="pl-3">5</span>
           <span className="pl-24">"description"</span>
           <span className="text-[#D4D4D4] ">:</span>
-          <span className="text-[#CE9178] pl-2 flex-1">"Developed a personal finance tracking application to manage and visualize expenses. Designed interactive UI components and focused on usability and responsive design."</span>
-          <span className="text-[#D4D4D4] ">,</span>
+          <span className="text-[#CE9178] pl-2 flex-1">"Developed a personal finance tracking application to manage and visualize expenses. Designed interactive UI components and focused on usability and responsive design." <span className="text-[#D4D4D4] ">,</span></span>
         </div>
         <div className="flex">
           <span className="pl-3">6</span>
           <span className="pl-24">"github"</span>
           <span className="text-[#D4D4D4] ">:</span>
-          <span className="text-[#CE9178] pl-2 flex-1"><a href="https://github.com/BEASTBOLTT/FinBook">"https://github.com/BEASTBOLTT/FinBook"</a></span>
-          <span className="text-[#D4D4D4] ">,</span>
+          <span className="text-[#CE9178] pl-2 flex-1"><a href="https://github.com/BEASTBOLTT/FinBook">"https://github.com/BEASTBOLTT/FinBook"</a>
+            <span className="text-[#D4D4D4] ">,</span>
+          </span>
+          
         </div>
         <div className="flex">
           <span className="pl-3">7</span>
           <span className="pl-24">"live"</span>
           <span className="text-[#D4D4D4] ">:</span>
-          <span className="text-[#CE9178] pl-2 flex-1"><a href="https://fin-book-eight.vercel.app/">"https://fin-book-eight.vercel.app/"</a></span>
-          <span className="text-[#D4D4D4] ">,</span>
+          <span className="text-[#CE9178] pl-2 flex-1"><a href="https://fin-book-eight.vercel.app/">"https://fin-book-eight.vercel.app/"</a>
+            <span className="text-[#D4D4D4] ">,</span>
+          </span>
         </div>
         <div>
           <span className="pl-3">8</span>
@@ -75,8 +78,10 @@ const Projects = () => {
           <span className="pl-2">10</span>
           <span className="pl-23">"name"</span>
           <span className="text-[#D4D4D4] ">:</span>
-          <span className="text-[#CE9178] pl-2">"ChaturGPT – AI Chatbot"</span>
-          <span className="text-[#D4D4D4] ">,</span>
+          <span className="text-[#CE9178] pl-2 flex-1">"ChaturGPT – AI Chatbot"
+            <span className="text-[#D4D4D4] ">,</span>
+          </span>
+          
         </div>
         <div>
           <span className="pl-2">11</span>
@@ -94,22 +99,25 @@ const Projects = () => {
           <span className="pl-2">12</span>
           <span className="pl-23">"description"</span>
           <span className="text-[#D4D4D4] ">:</span>
-          <span className="text-[#CE9178] pl-2 flex-1">"Built an AI chatbot interface that generates real-time responses using the Gemini API. Focused on creating a clean and responsive chat experience with efficient state management using React hooks."</span>
-          <span className="text-[#D4D4D4] ">,</span>
+          <span className="text-[#CE9178] pl-2 flex-1">"Built an AI chatbot interface that generates real-time responses using the Gemini API. Focused on creating a clean and responsive chat experience with efficient state management using React hooks."
+            <span className="text-[#D4D4D4] ">,</span>
+          </span>
         </div>
         <div className="flex">
           <span className="pl-2">13</span>
           <span className="pl-23">"github"</span>
           <span className="text-[#D4D4D4] ">:</span>
-          <span className="text-[#CE9178] pl-2 flex-1"><a href="https://github.com/BEASTBOLTT/Front-End-Learning-Projects/tree/main/React/ChaturGPT">"https://github.com/BEASTBOLTT/Front-End-Learning-Projects/tree/main/React/ChaturGPT"</a></span>
-          <span className="text-[#D4D4D4] ">,</span>
+          <span className="text-[#CE9178] pl-2 flex-1"><a href="https://github.com/BEASTBOLTT/Front-End-Learning-Projects/tree/main/React/ChaturGPT">"https://github.com/BEASTBOLTT/Front-End-Learning-Projects/tree/main/React/ChaturGPT"</a>
+            <span className="text-[#D4D4D4] ">,</span>
+          </span>
         </div>
         <div className="flex">
           <span className="pl-2">14</span>
           <span className="pl-23">"live"</span>
           <span className="text-[#D4D4D4] ">:</span>
-          <span className="text-[#CE9178] pl-2 flex-1"><a href="https://chaturgpt.vercel.app/">"https://chaturgpt.vercel.app/"</a></span>
-          <span className="text-[#D4D4D4] ">,</span>
+          <span className="text-[#CE9178] pl-2 flex-1"><a href="https://chaturgpt.vercel.app/">"https://chaturgpt.vercel.app/"</a>
+            <span className="text-[#D4D4D4] ">,</span>
+          </span>
         </div>
         <div>
           <span className="pl-2">15</span>
@@ -124,8 +132,9 @@ const Projects = () => {
           <span className="pl-2">17</span>
           <span className="pl-23">"name"</span>
           <span className="text-[#D4D4D4] ">:</span>
-          <span className="text-[#CE9178] pl-2 flex-1">"Paste – Notes Manager"</span>
-          <span className="text-[#D4D4D4] ">,</span>
+          <span className="text-[#CE9178] pl-2 flex-1">"Paste – Notes Manager"
+            <span className="text-[#D4D4D4] ">,</span>
+          </span>
         </div>
         <div>
           <span className="pl-2">18</span>
@@ -141,22 +150,25 @@ const Projects = () => {
           <span className="pl-2">19</span>
           <span className="pl-23">"description"</span>
           <span className="text-[#D4D4D4] ">:</span>
-          <span className="text-[#CE9178] pl-2 flex-1">"Created a notes management application to store and organize notes efficiently. Implemented reusable components and dynamic state management using React hooks."</span>
-          <span className="text-[#D4D4D4] ">,</span>
+          <span className="text-[#CE9178] pl-2 flex-1">"Created a notes management application to store and organize notes efficiently. Implemented reusable components and dynamic state management using React hooks."
+            <span className="text-[#D4D4D4] ">,</span>
+          </span>
         </div>
         <div className="flex">
           <span className="pl-2">20</span>
           <span className="pl-23">"github"</span>
           <span className="text-[#D4D4D4] ">:</span>
-          <span className="text-[#CE9178] pl-2 flex-1"><a href="https://github.com/BEASTBOLTT/Front-End-Learning-Projects/tree/main/React/Paste/PasteApp">"https://github.com/BEASTBOLTT/Front-End-Learning-Projects/tree/main/React/Paste/PasteApp"</a></span>
-          <span className="text-[#D4D4D4] ">,</span>
+          <span className="text-[#CE9178] pl-2 flex-1"><a href="https://github.com/BEASTBOLTT/Front-End-Learning-Projects/tree/main/React/Paste/PasteApp">"https://github.com/BEASTBOLTT/Front-End-Learning-Projects/tree/main/React/Paste/PasteApp"</a>
+            <span className="text-[#D4D4D4] ">,</span>
+          </span>
         </div>
         <div className="flex">
           <span className="pl-2">21</span>
           <span className="pl-23">"live"</span>
           <span className="text-[#D4D4D4] ">:</span>
-          <span className="text-[#CE9178] pl-2 flex-1"><a href="https://firstdeploy-ashen.vercel.app/">"https://firstdeploy-ashen.vercel.app/"</a></span>
-          <span className="text-[#D4D4D4] ">,</span>
+          <span className="text-[#CE9178] pl-2 flex-1"><a href="https://firstdeploy-ashen.vercel.app/">"https://firstdeploy-ashen.vercel.app/"</a>
+            <span className="text-[#D4D4D4] ">,</span>
+          </span>
         </div>
         <div>
           <span className="pl-2">22</span>
