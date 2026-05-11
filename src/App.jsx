@@ -69,7 +69,7 @@ function App() {
         <h1 className="mt-0.5 text-[#ADADAD] font-bold">Portfolio - Devam Pandey</h1>
       </div>
       <div className="h-full flex overflow-hidden">
-        <SideBar menuActive={menuActive} handleExplorer={handleExplorer}/>
+        <SideBar menuActive={menuActive} handleExplorer={handleExplorer} explorerActive={explorerActive}/>
         <div className=" flex w-full h-full overflow-hidden">
           <RouterProvider router={router} />
         </div>

@@ -15,7 +15,159 @@ const Projects = () => {
         </div>
 
       </div>
-      <div className="bg-[#1E1E1E] h-full">Projects</div>
+      <div className="bg-[#1E1E1E] flex-1 text-white p-5 pl-9 overflow-y-auto no-scrollbar">
+        <div>
+          <span className="pl-3">1</span>
+          <span className="text-[#E0BD00] pl-8">{"["}</span>
+        </div>
+        <div>
+          <span className="pl-3">2</span>
+          <span className="text-[#C586C0] pl-16">{"{"}</span>
+        </div>
+        <div>
+          <span className="pl-3">3</span>
+          <span className="pl-24">"name"</span>
+          <span className="text-[#D4D4D4] ">:</span>
+          <span className="text-[#CE9178] pl-2">"FinBook – Finance Tracker"</span>
+          <span className="text-[#D4D4D4] ">,</span>
+        </div>
+        <div>
+          <span className="pl-3">4</span>
+          <span className=" pl-24">"tech"</span>
+          <span className="text-[#D4D4D4] ">:</span>
+          <span className="text-[#569CD6] pl-2">{"["}</span>
+          <span className="text-[#CE9178] pl-2">"React.js"</span>
+          <span className="text-[#D4D4D4] ">,</span>
+          <span className="text-[#CE9178] pl-2">"Tailwind CSS"</span>
+          <span className="text-[#569CD6]">{"]"}</span>
+        </div>
+        <div>
+          <span className="pl-3">5</span>
+          <span className="pl-24">"description"</span>
+          <span className="text-[#D4D4D4] ">:</span>
+          <span className="text-[#CE9178] pl-2">"Developed a personal finance tracking application to manage and visualize expenses. Designed interactive UI components and focused on usability and responsive design."</span>
+          <span className="text-[#D4D4D4] ">,</span>
+        </div>
+        <div>
+          <span className="pl-3">6</span>
+          <span className="pl-24">"github"</span>
+          <span className="text-[#D4D4D4] ">:</span>
+          <span className="text-[#CE9178] pl-2"><a href="https://github.com/BEASTBOLTT/FinBook">"https://github.com/BEASTBOLTT/FinBook"</a></span>
+          <span className="text-[#D4D4D4] ">,</span>
+        </div>
+        <div>
+          <span className="pl-3">7</span>
+          <span className="pl-24">"live"</span>
+          <span className="text-[#D4D4D4] ">:</span>
+          <span className="text-[#CE9178] pl-2"><a href="https://fin-book-eight.vercel.app/">"https://fin-book-eight.vercel.app/"</a></span>
+          <span className="text-[#D4D4D4] ">,</span>
+        </div>
+        <div>
+          <span className="pl-3">8</span>
+          <span className="text-[#C586C0] pl-16">{"}"}</span>
+          <span className="text-[#D4D4D4] ">,</span>
+        </div>
+        <div>
+          <span className="pl-3">9</span>
+          <span className="text-[#C586C0] pl-16">{"{"}</span>
+        </div>
+        <div>
+          <span className="pl-2">10</span>
+          <span className="pl-23">"name"</span>
+          <span className="text-[#D4D4D4] ">:</span>
+          <span className="text-[#CE9178] pl-2">"ChaturGPT – AI Chatbot"</span>
+          <span className="text-[#D4D4D4] ">,</span>
+        </div>
+        <div>
+          <span className="pl-2">11</span>
+          <span className=" pl-23">"tech"</span>
+          <span className="text-[#D4D4D4] ">:</span>
+          <span className="text-[#569CD6] pl-2">{"["}</span>
+          <span className="text-[#CE9178] pl-2">"React.js"</span>
+          <span className="text-[#D4D4D4] ">,</span>
+          <span className="text-[#CE9178] pl-2">"Tailwind CSS"</span>
+          <span className="text-[#D4D4D4] ">,</span>
+          <span className="text-[#CE9178] pl-2">"Gemini API"</span>
+          <span className="text-[#569CD6]">{"]"}</span>
+        </div>
+        <div>
+          <span className="pl-2">12</span>
+          <span className="pl-23">"description"</span>
+          <span className="text-[#D4D4D4] ">:</span>
+          <span className="text-[#CE9178] pl-2">"Built an AI chatbot interface that generates real-time responses using the Gemini API. Focused on creating a clean and responsive chat experience with efficient state management using React hooks."</span>
+          <span className="text-[#D4D4D4] ">,</span>
+        </div>
+        <div>
+          <span className="pl-2">13</span>
+          <span className="pl-23">"github"</span>
+          <span className="text-[#D4D4D4] ">:</span>
+          <span className="text-[#CE9178] pl-2"><a href="https://github.com/BEASTBOLTT/Front-End-Learning-Projects/tree/main/React/ChaturGPT">"https://github.com/BEASTBOLTT/Front-End-Learning-Projects/tree/main/React/ChaturGPT"</a></span>
+          <span className="text-[#D4D4D4] ">,</span>
+        </div>
+        <div>
+          <span className="pl-2">14</span>
+          <span className="pl-23">"live"</span>
+          <span className="text-[#D4D4D4] ">:</span>
+          <span className="text-[#CE9178] pl-2"><a href="https://chaturgpt.vercel.app/">"https://chaturgpt.vercel.app/"</a></span>
+          <span className="text-[#D4D4D4] ">,</span>
+        </div>
+        <div>
+          <span className="pl-2">15</span>
+          <span className="text-[#C586C0] pl-15">{"}"}</span>
+          <span className="text-[#D4D4D4] ">,</span>
+        </div>
+        <div>
+          <span className="pl-2">16</span>
+          <span className="text-[#C586C0] pl-16">{"{"}</span>
+        </div>
+        <div>
+          <span className="pl-2">17</span>
+          <span className="pl-23">"name"</span>
+          <span className="text-[#D4D4D4] ">:</span>
+          <span className="text-[#CE9178] pl-2">"Paste – Notes Manager"</span>
+          <span className="text-[#D4D4D4] ">,</span>
+        </div>
+        <div>
+          <span className="pl-2">18</span>
+          <span className=" pl-23">"tech"</span>
+          <span className="text-[#D4D4D4] ">:</span>
+          <span className="text-[#569CD6] pl-2">{"["}</span>
+          <span className="text-[#CE9178] pl-2">"React.js"</span>
+          <span className="text-[#D4D4D4] ">,</span>
+          <span className="text-[#CE9178] pl-2">"Tailwind CSS"</span>
+          <span className="text-[#569CD6]">{"]"}</span>
+        </div>
+        <div>
+          <span className="pl-2">19</span>
+          <span className="pl-23">"description"</span>
+          <span className="text-[#D4D4D4] ">:</span>
+          <span className="text-[#CE9178] pl-2">"Created a notes management application to store and organize notes efficiently. Implemented reusable components and dynamic state management using React hooks."</span>
+          <span className="text-[#D4D4D4] ">,</span>
+        </div>
+        <div>
+          <span className="pl-2">20</span>
+          <span className="pl-23">"github"</span>
+          <span className="text-[#D4D4D4] ">:</span>
+          <span className="text-[#CE9178] pl-2"><a href="https://github.com/BEASTBOLTT/Front-End-Learning-Projects/tree/main/React/Paste/PasteApp">"https://github.com/BEASTBOLTT/Front-End-Learning-Projects/tree/main/React/Paste/PasteApp"</a></span>
+          <span className="text-[#D4D4D4] ">,</span>
+        </div>
+        <div>
+          <span className="pl-2">21</span>
+          <span className="pl-23">"live"</span>
+          <span className="text-[#D4D4D4] ">:</span>
+          <span className="text-[#CE9178] pl-2"><a href="https://firstdeploy-ashen.vercel.app/">"https://firstdeploy-ashen.vercel.app/"</a></span>
+          <span className="text-[#D4D4D4] ">,</span>
+        </div>
+        <div>
+          <span className="pl-2">22</span>
+          <span className="text-[#C586C0] pl-15">{"}"}</span>
+          <span className="text-[#D4D4D4] ">,</span>
+        </div>
+        <div>
+          <span className="pl-2">23</span>
+          <span className="text-[#E0BD00] pl-7">{"]"}</span>
+        </div>
+      </div>
     </div>
   )
 }
