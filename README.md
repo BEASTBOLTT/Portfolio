@@ -1,16 +1,114 @@
-# React + Vite
+# 💻 VS Code Inspired Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A developer portfolio website inspired by the Visual Studio Code interface, built using **React.js**, **Tailwind CSS**, and **React Router**.
 
-Currently, two official plugins are available:
+The project recreates the feel of a real code editor with:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Explorer sidebar
+* File-based navigation
+* Syntax-inspired UI
+* Markdown, JSON, JSX, and TypeScript styled sections
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Features
 
-## Expanding the ESLint configuration
+* ⚛️ VS Code inspired interface
+* 📁 Explorer-style file navigation
+* 🖥 Responsive editor layout
+* 📄 Different file formats for each section
+* 🎨 Tailwind CSS based styling
+* 🔗 React Router navigation
+* 📱 Responsive design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Sections & File Formats
+
+| Section    | Format          |
+| ---------- | --------------- |
+| About      | `about.jsx`     |
+| Skills     | `skills.ts`     |
+| Projects   | `projects.json` |
+| Experience | `experience.md` |
+
+---
+
+## 🛠 Tech Stack
+
+* React.js
+* Tailwind CSS
+* React Router DOM
+* JavaScript
+
+---
+
+## 📸 UI Inspiration
+
+The portfolio UI is inspired by:
+
+* Visual Studio Code
+* Modern developer workspaces
+* Syntax highlighted editor themes
+
+---
+
+## 🔥 Projects Included
+
+* ChaturGPT – AI Chatbot
+* FinBook – Finance Tracker
+* Paste – Notes Manager
+
+---
+
+## 📦 Installation
+
+```bash
+git clone <your-repository-link>
+
+cd <project-folder>
+
+npm install
+
+npm run dev
+```
+
+---
+
+## 🌐 Live Demo
+
+
+
+```bash
+https://devampandey.vercel.app
+```
+
+---
+
+## 📌 Future Improvements
+
+* File tabs system
+* Theme switching
+* Terminal integration
+* Animations & transitions
+* Dynamic project rendering
+
+---
+
+## 👨‍💻 Author
+
+**Devam Pandey**
+
+Frontend Developer passionate about building clean and interactive web experiences.
+
+Currently exploring:
+
+* MERN Stack
+* Full Stack Development
+* Machine Learning
+
+---
+
+## ⭐ If You Like This Project
+
+Give it a star on GitHub ⭐
