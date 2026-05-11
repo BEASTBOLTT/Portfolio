@@ -15,7 +15,61 @@ const Experience = () => {
         </div>
 
       </div>
-      <div className="bg-[#1E1E1E] h-full">Experience</div>
+      <div className="bg-[#1E1E1E] flex-1 text-white p-5 pl-9 overflow-y-auto no-scrollbar">
+        <div>
+          <span className="pl-3">1</span>
+          <span className="text-[#6796E6] font-bold pl-8"># Experience</span>
+        </div>
+        <p className="pl-3">2</p>
+        <div className="flex">
+          <span className="pl-3">3</span>
+          <span className="text-[#6796E6] font-bold pl-8 flex-1">## 🎯 Team Lead – Evenza Project Exhibition </span>
+        </div>
+        <div className="flex">
+          <span className="pl-3">4</span>
+          <span className="font-bold pl-8 flex-1">**VIT Bhopal | Jan 2025 – Mar 2025**</span>
+        </div>
+        <p className="pl-3">5</p>
+        <div className="flex">
+          <span className="pl-3">6</span>
+          <span className=" pl-8">Led a team of 5 members to design and present a frontend web application. Managed development workflow, coordinated tasks, and improved UI usability through iterative development.</span>
+        </div>
+        <p className="pl-3">7</p>
+        <div>
+          <span className="pl-3">8</span>
+          <span className="font-bold pl-8"> - - - </span>
+        </div>
+        <p className="pl-3">9</p>
+        <div className="flex">
+          <span className="pl-2">10</span>
+          <span className="text-[#6796E6] font-bold pl-7 flex-1">## Team Lead – Blockchain E-Voting Project  </span>
+        </div>
+        <div className="flex">
+          <span className="pl-2">11</span>
+          <span className="font-bold pl-7">**VIT Bhopal | Jul 2025 – Apr 2026**</span>
+        </div>
+        <p className="pl-2">12</p>
+        <div className="flex">
+          <span className="pl-2">13</span>
+          <span className="pl-7 flex-1">Led a team of 6 members to design and develop a blockchain-based e-voting system. Coordinated project planning, task allocation, and implementation while focusing on building a secure and transparent voting mechanism using decentralized concepts.</span>
+        </div>
+        <p className="pl-2">14</p>
+        <div>
+          <span className="pl-2">15</span>
+          <span className="font-bold pl-7"> - - - </span>
+        </div>
+        <p className="pl-2">16</p>
+        <div className="flex">
+          <span className="pl-2">17</span>
+          <span className="text-[#6796E6] font-bold pl-7 flex-1">## 📌 Current Status</span>
+        </div>
+        <p className="pl-2">18</p>
+        <div className="flex">
+          <span className="pl-2">19</span>
+          <span className=" pl-7 flex-1">I’m currently looking for internship opportunities. Let’s connect!</span>
+        </div>
+        <p className="pl-2">20</p>
+      </div>
     </div>
   )
 }
