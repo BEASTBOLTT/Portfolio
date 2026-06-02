@@ -14,7 +14,7 @@ function SideBar({menuActive, handleExplorer, explorerActive}) {
                 <a href="mailto:pandeydevamdp27@gmail.com">
                     <svg className="h-13 m-1 w-13 p-1 pl-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#ADADAD" d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2zm-2 0l-8 5l-8-5zm0 12H4V8l8 5l8-5z" /></svg>
                 </a>
-                <a href="https://github.com/BEASTBOLTT/Resume/blob/main/Devam_Resume.pdf">
+                <a href="https://github.com/BEASTBOLTT/Resume">
                     <svg className="h-13 m-1 w-13 p-1 pl-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="none" stroke="#ADADAD" d="M14.5 4.2V15a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5V1A.5.5 0 0 1 2 .5h8.85a.5.5 0 0 1 .36.15l3.15 3.2a.5.5 0 0 1 .14.35zm-10 8.3h7m-7-2h7m-1-10V4a.5.5 0 0 0 .5.5h3.5" /><rect width="8" height="2" x="4" y="7" fill="#ADADAD" rx=".5" ry=".5" /></svg>
                 </a>
             </div>
