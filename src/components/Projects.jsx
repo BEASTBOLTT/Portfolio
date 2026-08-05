@@ -28,7 +28,7 @@ const Projects = () => {
           <span className="pl-3">3</span>
           <span className="pl-24">"name"</span>
           <span className="text-[#D4D4D4] ">:</span>
-          <span className="text-[#CE9178] pl-2 flex-1">"FinBook – Finance Tracker"
+          <span className="text-[#CE9178] pl-2 flex-1">"JobHunt – AI Interview Prep Platform"
             <span className="text-[#D4D4D4] ">,</span>
           </span>
         </div>
@@ -39,29 +39,34 @@ const Projects = () => {
           <span className="text-[#569CD6] pl-2">{"["}</span>
           <span className="text-[#CE9178] pl-2">"React.js"</span>
           <span className="text-[#D4D4D4] ">,</span>
-          <span className="text-[#CE9178] pl-2">"Tailwind CSS"</span>
+          <span className="text-[#CE9178] pl-2">"Node.js"</span>
+          <span className="text-[#D4D4D4] ">,</span>
+          <span className="text-[#CE9178] pl-2">"Express.js"</span>
+          <span className="text-[#D4D4D4] ">,</span>
+          <span className="text-[#CE9178] pl-2">"MongoDB"</span>
+          <span className="text-[#D4D4D4] ">,</span>
+          <span className="text-[#CE9178] pl-2">"Google GenAI"</span>
           <span className="text-[#569CD6]">{"]"}</span>
         </div>
         <div className="flex">
           <span className="pl-3">5</span>
           <span className="pl-24">"description"</span>
           <span className="text-[#D4D4D4] ">:</span>
-          <span className="text-[#CE9178] pl-2 flex-1">"Developed a personal finance tracking application to manage and visualize expenses. Designed interactive UI components and focused on usability and responsive design." <span className="text-[#D4D4D4] ">,</span></span>
+          <span className="text-[#CE9178] pl-2 flex-1">"An AI-powered interview preparation platform that analyzes your resume against a job description, identifies skill gaps, generates interview-ready insights, and creates an AI-enhanced resume." <span className="text-[#D4D4D4] ">,</span></span>
         </div>
         <div className="flex">
           <span className="pl-3">6</span>
           <span className="pl-24">"github"</span>
           <span className="text-[#D4D4D4] ">:</span>
-          <span className="text-[#CE9178] pl-2 flex-1"><a href="https://github.com/BEASTBOLTT/FinBook">"https://github.com/BEASTBOLTT/FinBook"</a>
+          <span className="text-[#CE9178] pl-2 flex-1"><a href="https://github.com/BEASTBOLTT/JobHunt">"https://github.com/BEASTBOLTT/JobHunt"</a>
             <span className="text-[#D4D4D4] ">,</span>
           </span>
-          
         </div>
         <div className="flex">
           <span className="pl-3">7</span>
           <span className="pl-24">"live"</span>
           <span className="text-[#D4D4D4] ">:</span>
-          <span className="text-[#CE9178] pl-2 flex-1"><a href="https://fin-book-eight.vercel.app/">"https://fin-book-eight.vercel.app/"</a>
+          <span className="text-[#CE9178] pl-2 flex-1"><a href="https://job-hunt-ochre-phi.vercel.app/">"https://job-hunt-ochre-phi.vercel.app/"</a>
             <span className="text-[#D4D4D4] ">,</span>
           </span>
         </div>
@@ -72,6 +77,55 @@ const Projects = () => {
         </div>
         <div>
           <span className="pl-3">9</span>
+          <span className="text-[#C586C0] pl-16">{"{"}</span>
+        </div>
+        <div className="flex">
+          <span className="pl-2">10</span>
+          <span className="pl-23">"name"</span>
+          <span className="text-[#D4D4D4] ">:</span>
+          <span className="text-[#CE9178] pl-2 flex-1">"FinBook – Finance Tracker"
+            <span className="text-[#D4D4D4] ">,</span>
+          </span>
+        </div>
+        <div>
+          <span className="pl-2">11</span>
+          <span className=" pl-23">"tech"</span>
+          <span className="text-[#D4D4D4] ">:</span>
+          <span className="text-[#569CD6] pl-2">{"["}</span>
+          <span className="text-[#CE9178] pl-2">"React.js"</span>
+          <span className="text-[#D4D4D4] ">,</span>
+          <span className="text-[#CE9178] pl-2">"Tailwind CSS"</span>
+          <span className="text-[#569CD6]">{"]"}</span>
+        </div>
+        <div className="flex">
+          <span className="pl-2">12</span>
+          <span className="pl-23">"description"</span>
+          <span className="text-[#D4D4D4] ">:</span>
+          <span className="text-[#CE9178] pl-2 flex-1">"Developed a personal finance tracking application to manage and visualize expenses. Designed interactive UI components and focused on usability and responsive design." <span className="text-[#D4D4D4] ">,</span></span>
+        </div>
+        <div className="flex">
+          <span className="pl-2">13</span>
+          <span className="pl-23">"github"</span>
+          <span className="text-[#D4D4D4] ">:</span>
+          <span className="text-[#CE9178] pl-2 flex-1"><a href="https://github.com/BEASTBOLTT/FinBook">"https://github.com/BEASTBOLTT/FinBook"</a>
+            <span className="text-[#D4D4D4] ">,</span>
+          </span>
+        </div>
+        <div className="flex">
+          <span className="pl-2">14</span>
+          <span className="pl-23">"live"</span>
+          <span className="text-[#D4D4D4] ">:</span>
+          <span className="text-[#CE9178] pl-2 flex-1"><a href="https://fin-book-eight.vercel.app/">"https://fin-book-eight.vercel.app/"</a>
+            <span className="text-[#D4D4D4] ">,</span>
+          </span>
+        </div>
+        <div>
+          <span className="pl-2">15</span>
+          <span className="text-[#C586C0] pl-16">{"}"}</span>
+          <span className="text-[#D4D4D4] ">,</span>
+        </div>
+        <div>
+          <span className="pl-2">16</span>
           <span className="text-[#C586C0] pl-16">{"{"}</span>
         </div>
         <div className="flex">

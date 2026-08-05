@@ -18,114 +18,142 @@ const About = () => {
           <div className="bg-[#1E1E1E] h-full text-white p-5 pl-9">
             <p className="pl-3">1</p>
             <p className="pl-3">2</p>
-            <div>
+            <div className="flex">
                 <span className="pl-3">3</span>
-                <span className="text-[#569CD6] pl-8">const</span>
+                <div className="pl-8 flex-1">
+                <span className="text-[#569CD6]">const</span>
                 <span className="text-[#DCDCAA] pl-2">About</span>
                 <span className="text-[#D4D4D4] pl-2">=</span>
                 <span className="text-[#E0BD00] pl-2">( )</span>
                 <span className="text-[#569CD6] pl-2">{"=>"}</span>
                 <span className="text-[#E0BD00] pl-2">{"{"}</span>
+                </div>
             </div>
-            <div>
+            <div className="flex">
                 <span className="pl-3">4</span>
-                <span className="text-[#C586C0] pl-16">return </span>
+                <div className="pl-16 flex-1">
+                <span className="text-[#C586C0]">return </span>
                 <span className="text-[#C586C0] pl-2">{'('} </span>
+                </div>
             </div>
-            <div>
+            <div className="flex">
                 <span className="pl-3">5</span>
-                <span className="text-[#808080] pl-24">{"<"}</span>
+                <div className="pl-24 flex-1">
+                <span className="text-[#808080]">{"<"}</span>
                 <span className="text-[#569CD6]">div</span>
                 <span className="text-[#808080]">{">"}</span>
+                </div>
             </div>
-            <div>
+            <div className="flex">
                 <span className="pl-3">6</span>
-                <span className="text-[#808080] pl-32">{"<"}</span>
+                <div className="pl-32 flex-1">
+                <span className="text-[#808080]">{"<"}</span>
                 <span className="text-[#569CD6]">name</span>
                 <span className="text-[#808080]">{">"}</span>
                 <span className="pl-2 pr-2">Devam Pandey</span>
                 <span className="text-[#808080]">{"<"}</span>
                 <span className="text-[#569CD6]">name</span>
                 <span className="text-[#808080]">{"/>"}</span>
+                </div>
             </div>
-            <div>
+            <div className="flex">
                 <span className="pl-3">7</span>
-                <span className="text-[#808080] pl-32">{"<"}</span>
+                <div className="pl-32 flex-1">
+                <span className="text-[#808080]">{"<"}</span>
                 <span className="text-[#569CD6]">role</span>
                 <span className="text-[#808080]">{">"}</span>
-                <span className="pl-2 pr-2">Front End Developer</span>
+                <span className="pl-2 pr-2">MERN Stack Developer</span>
                 <span className="text-[#808080]">{"<"}</span>
                 <span className="text-[#569CD6]">role</span>
                 <span className="text-[#808080]">{"/>"}</span>
+                </div>
             </div>
-            <div>
+            <div className="flex">
                 <span className="pl-3">8</span>
-                <span className="text-[#808080] pl-32">{"<"}</span>
+                <div className="pl-32 flex-1">
+                <span className="text-[#808080]">{"<"}</span>
                 <span className="text-[#569CD6]">home</span>
                 <span className="text-[#808080]">{">"}</span>
                 <span className="pl-2 pr-2">Prayagraj, Uttar Pradesh</span>
                 <span className="text-[#808080]">{"<"}</span>
                 <span className="text-[#569CD6]">home</span>
                 <span className="text-[#808080]">{"/>"}</span>
+                </div>
             </div>
-            <div>
+            <div className="flex">
                 <span className="pl-3">9</span>
-                <span className="text-[#808080] pl-32">{"<"}</span>
+                <div className="pl-32 flex-1">
+                <span className="text-[#808080]">{"<"}</span>
                 <span className="text-[#569CD6]">education</span>
                 <span className="text-[#808080]">{">"}</span>
                 <span className="pl-2 pr-2">BTech. CSE undergrad VIT Bhopal</span>
                 <span className="text-[#808080]">{"<"}</span>
                 <span className="text-[#569CD6]">education</span>
                 <span className="text-[#808080]">{"/>"}</span>
+                </div>
             </div>
-            <div>
+            <div className="flex">
                 <span className="pl-2">10</span>
-                <span className="text-[#808080] pl-32">{"<"}</span>
+                <div className="pl-32 flex-1">
+                <span className="text-[#808080]">{"<"}</span>
                 <span className="text-[#569CD6]">tech</span>
                 <span className="text-[#808080]">{">"}</span>
-                <span className="pl-2 pr-2">[JavaScript, React, TailwindCSS]</span>
+                <span className="pl-2 pr-2">[React, Node, Express, MongoDB]</span>
                 <span className="text-[#808080]">{"<"}</span>
                 <span className="text-[#569CD6]">tech</span>
                 <span className="text-[#808080]">{"/>"}</span>
+                </div>
             </div>
-            <div>
+            <div className="flex">
                 <span className="pl-2">11</span>
-                <span className="text-[#808080] pl-32">{"<"}</span>
+                <div className="pl-32 flex-1">
+                <span className="text-[#808080]">{"<"}</span>
                 <span className="text-[#569CD6]">focus</span>
                 <span className="text-[#808080]">{">"}</span>
                   <span className="pl-2 pr-2">Clean UI, responsive design, real-world apps</span>
                 <span className="text-[#808080]">{"<"}</span>
                 <span className="text-[#569CD6]">focus</span>
                 <span className="text-[#808080]">{"/>"}</span>
+                </div>
             </div>
-            <div>
+            <div className="flex">
                 <span className="pl-2">12</span>
-                <span className="text-[#808080] pl-32">{"<"}</span>
+                <div className="pl-32 flex-1">
+                <span className="text-[#808080]">{"<"}</span>
                 <span className="text-[#569CD6]">status</span>
                 <span className="text-[#808080]">{">"}</span>
                 <span className="pl-2 pr-2">Open to internship opportunities</span>
                 <span className="text-[#808080]">{"<"}</span>
                 <span className="text-[#569CD6]">status</span>
                 <span className="text-[#808080]">{"/>"}</span>
+                </div>
             </div>
-            <div>
+            <div className="flex">
                 <span className="pl-2">13</span>
-                <span className="text-[#808080] pl-24">{"<"}</span>
+                <div className="pl-24 flex-1">
+                <span className="text-[#808080]">{"<"}</span>
                 <span className="text-[#569CD6]">div</span>
                 <span className="text-[#808080]">{"/>"}</span>
+                </div>
             </div>
-            <div>
+            <div className="flex">
                 <span className="pl-2">14</span>
-                <span className="text-[#C586C0] pl-16">{')'} </span>
+                <div className="pl-16 flex-1">
+                <span className="text-[#C586C0]">{')'} </span>
+                </div>
             </div>
-            <div>
+            <div className="flex">
                 <span className="pl-2">15</span>
-                <span className="text-[#E0BD00] pl-8">{"}"}</span>
+                <div className="pl-8 flex-1">
+                <span className="text-[#E0BD00]">{"}"}</span>
+                </div>
             </div>
-            <div>
+            <div className="flex">
                 <span className="pl-2">16</span>
-                  <span className="text-[#C586C0] pl-8">export default</span>
+                <div className="pl-8 flex-1">
+                <span className="text-[#C586C0]">export default</span>
                 <span className="text-[#DCDCAA] pl-2">About</span>
+                </div>
             </div>
             
           </div>
